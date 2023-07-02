@@ -13,7 +13,10 @@ Several image representations will be compared:
 
 In each case, the idea is to study the classification performance (on the test set) using 1-nearest neighbor on the training data with Euclidean (L2) distance.
 
+
+<br>
 The following table shows dimensionality of representations
+<br><br>
 
 | Representation | Dimensions |
 | --- | --- |
@@ -22,7 +25,10 @@ The following table shows dimensionality of representations
 | VGG-last-fc | 4096 |
 | VGG-last-conv | 512 |
 
+
+<br>
 The following table shows test accuracies for 1-nearest neighbor classification using various representations
+<br><br>
 
 | Representation | Test accuracy |
 | --- | --- |
@@ -33,16 +39,24 @@ The following table shows test accuracies for 1-nearest neighbor classification 
 | Random-VGG-last-fc | 0.39 |
 | Random-VGG-last-conv | 0.4005 |
 
+<br>
+<br>
 The following figures depict Images in the test set with correctly and incorrectly predicted labels and their nearest neighbors
+<br>
 
-Raw pixel representation
+#### Raw pixel representation
 
 ![](raw.png)
 
-HoG representation
+<br>
+
+#### HoG representation
 
 ![](hog.png)
 
-VGG-last-fc representation
+<br>
+<br>
+
+#### VGG-last-fc representation
 
 ![](last-fc.png)
